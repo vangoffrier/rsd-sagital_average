@@ -2,7 +2,7 @@ import numpy as np
 import subprocess
 
 if __name__ == "__main__":
-	subprocess.run(["python sagital_brain.py -o ut_out.csv"])
+	subprocess.run(["python","sagital_brain.py","-o","ut_out.csv"])
 
 	result = np.loadtxt('ut_out.csv', dtype=float,  delimiter=',')
 
