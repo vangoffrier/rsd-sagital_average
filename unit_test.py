@@ -9,4 +9,4 @@ if __name__ == "__main__":
 	expected = np.zeros(20)
 	expected[-1] = 1
 
-	np.testing.assert_array_equal(result,expected)
+	np.testing.assert_array_equal(result,expected, err_msg="2",verbose=False)
